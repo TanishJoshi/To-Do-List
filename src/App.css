@@ -1,0 +1,139 @@
+.container-fluid {
+  background-image: url("/public/todo.jpg");
+  background-size: cover;
+
+}
+
+/* header {
+  position: sticky;
+  top: 0;
+
+  width: 100%;
+  z-index: 1000; */
+/* Adjust the z-index as needed
+  background-color: rgba(28, 9, 114, 0.781);
+} */
+
+
+
+
+.bg-shade {
+  background-color: rgba(28, 9, 114, 0.781);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.custom-btn {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #4CAF50;
+  /* Green or any color of your choice */
+  color: white;
+  transform: scale(1.05);
+}
+
+
+/* App.css */
+/* Add these styles for responsiveness */
+
+/* Header styles */
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(28, 9, 114, 0.781);
+  /* Change the background color as needed */
+}
+
+h1 {
+  font-family: 'cursive';
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* User info styles */
+.user-info {
+  background-color: #eee;
+  /* Change the background color as needed */
+  font-weight: bold;
+  color: #333;
+  /* Change the text color as needed */
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+
+/* Section styles */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  min-height: 80vh;
+}
+
+/* User-login and User-register styles (you can add more as needed) */
+.custom-form {
+  width: 100%;
+  max-width: 400px;
+  /* Adjust the max-width as needed */
+  background-color: #fff;
+  /* Change the background color as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Adjust button styles if needed */
+
+/* Add more styles as needed */
+
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .button-container {
+    margin-top: 1rem;
+  }
+}
